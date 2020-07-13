@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Project" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="stock-1863880_1920" translatesAutoresizingMaskIntoConstraints="NO" id="cXd-jL-ZTX">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="6G5-tE-949">
+                                <rect key="frame" x="65" y="277" width="285" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Username" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="wpr-Ut-UYg">
+                                <rect key="frame" x="65" y="171" width="285" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aqE-4q-Pid">
+                                <rect key="frame" x="131" y="460" width="152" height="163"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                <state key="normal" title="Login">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="H6p-eR-4av" kind="presentation" modalPresentationStyle="fullScreen" id="iso-e6-T3w"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="KE9-CU-epc"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-523.1884057971015" y="13.392857142857142"/>
+        </scene>
+        <!--Stock-->
+        <scene sceneID="vbM-Am-tFU">
+            <objects>
+                <viewController id="nye-Df-Xbx" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="0aG-vu-0KG">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" id="jBG-eV-bur">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="pnb-yx-NFH"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Stock" id="yjk-Kh-nwd"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Z8G-zK-oXG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1379.7101449275362" y="166.74107142857142"/>
+        </scene>
+        <!--Stocks-->
+        <scene sceneID="F9q-Ru-OZm">
+            <objects>
+                <viewController id="71z-Qo-DRY" customClass="tradeViewController" customModule="Project" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="t8H-2D-Sov">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="hXA-sc-CDJ"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="交易" image="icons8-ナチュラルユーザーインターフェイス2-50" id="35e-Aj-jkY">
+                        <inset key="imageInsets" minX="0.0" minY="-3" maxX="0.0" maxY="12"/>
+                    </tabBarItem>
+                    <navigationItem key="navigationItem" title="Stocks" id="l0n-qo-PfD"/>
+                    <connections>
+                        <outlet property="tableView" destination="COO-Ks-gfi" id="OVd-eS-l6W"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OZ1-tr-UtN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-859.4202898550725" y="1486.6071428571429"/>
+        </scene>
+        <!--Stocks-->
+        <scene sceneID="x8D-DZ-JsA">
+            <objects>
+                <navigationController title="Stocks" id="RqQ-Vb-Wf4" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="ZZQ-0X-Hou"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="MWI-Lp-XF8">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="Wv0-AE-Raa" kind="relationship" relationship="rootViewController" id="zCV-9l-A8a"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XRi-y7-TPP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2026" y="2038"/>
+        </scene>
+        <!--Stocks-->
+        <scene sceneID="cGw-z3-B6u">
+            <objects>
+                <viewController id="Wv0-AE-Raa" customClass="tradeViewController" customModule="Project" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ZXr-jl-91s">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="insetGrouped" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" translatesAutoresizingMaskIntoConstraints="NO" id="COO-Ks-gfi">
+                                <rect key="frame" x="0.0" y="88" width="414" height="725"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="Wv0-AE-Raa" id="l5g-yx-HLn"/>
+                                    <outlet property="delegate" destination="Wv0-AE-Raa" id="ZGX-SL-PiH"/>
+                                </connections>
+                            </tableView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dhx-Qy-eg1" userLabel="Add Button">
+                                <rect key="frame" x="138" y="433" width="138" height="30"/>
+                                <state key="normal" title="Add a stock to track"/>
+                                <connections>
+                                    <action selector="addButtonTapped:" destination="Wv0-AE-Raa" eventType="touchUpInside" id="LQ1-AD-ux4"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="COO-Ks-gfi" firstAttribute="leading" secondItem="UwV-Xy-Fhs" secondAttribute="leading" id="1Je-1f-63u"/>
+                            <constraint firstItem="COO-Ks-gfi" firstAttribute="trailing" secondItem="UwV-Xy-Fhs" secondAttribute="trailing" id="4Nw-NR-ZlQ"/>
+                            <constraint firstItem="Dhx-Qy-eg1" firstAttribute="centerY" secondItem="ZXr-jl-91s" secondAttribute="centerY" id="CRv-BU-nhc"/>
+                            <constraint firstItem="Dhx-Qy-eg1" firstAttribute="centerX" secondItem="ZXr-jl-91s" secondAttribute="centerX" id="Ocn-4e-Spi"/>
+                            <constraint firstItem="COO-Ks-gfi" firstAttribute="top" secondItem="UwV-Xy-Fhs" secondAttribute="top" id="UJH-L7-Idl"/>
+                            <constraint firstItem="COO-Ks-gfi" firstAttribute="bottom" secondItem="UwV-Xy-Fhs" secondAttribute="bottom" id="n9n-di-2rQ"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="UwV-Xy-Fhs"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="交易" image="icons8-ナチュラルユーザーインターフェイス2-50" id="PaZ-WV-wPs">
+                        <inset key="imageInsets" minX="0.0" minY="-3" maxX="0.0" maxY="12"/>
+                    </tabBarItem>
+                    <navigationItem key="navigationItem" title="Stocks" id="Dcb-5l-GpE"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="addButton" destination="Dhx-Qy-eg1" id="WpJ-aZ-DkL"/>
+                        <outlet property="tableView" destination="COO-Ks-gfi" id="v8g-Wq-rnb"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="e1l-xH-0Ub" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-820.28985507246387" y="2151.5625"/>
+        </scene>
+        <!--主頁-->
+        <scene sceneID="Eog-S1-tpZ">
+            <objects>
+                <viewController id="RBS-vI-4Ix" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="OeY-PN-5Ex">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="6ii-Yo-bXG"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="主頁" image="icons8-ホームページ-50" id="3Sp-1f-vQT">
+                        <inset key="imageInsets" minX="0.0" minY="-3" maxX="0.0" maxY="12"/>
+                    </tabBarItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="69M-5D-Y7R" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-238" y="1487"/>
+        </scene>
+        <!--市場-->
+        <scene sceneID="YwE-CQ-rtn">
+            <objects>
+                <viewController id="OAJ-s7-Q8a" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="eCg-8c-jwc">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="t2J-AF-lz4"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="市場" image="icons8-地球儀-50" id="bLJ-R8-2UY">
+                        <inset key="imageInsets" minX="0.0" minY="-3" maxX="0.0" maxY="12"/>
+                    </tabBarItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rn3-ev-Fm9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="416" y="1487"/>
+        </scene>
+        <!--募資-->
+        <scene sceneID="KtW-w3-MuL">
+            <objects>
+                <viewController id="ox8-cf-v7M" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="AZo-lv-wFK">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="5Lt-HJ-7t9"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="募資" image="icons8-銀行-50" id="FpW-xB-Z0i">
+                        <inset key="imageInsets" minX="0.0" minY="-3" maxX="0.0" maxY="12"/>
+                    </tabBarItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yjA-kr-UoQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1056" y="1431"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="wQi-VH-cjE">
+            <objects>
+                <tabBarController id="H6p-eR-4av" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="406-ht-LvM">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="RBS-vI-4Ix" kind="relationship" relationship="viewControllers" id="jcY-kb-wBb"/>
+                        <segue destination="OAJ-s7-Q8a" kind="relationship" relationship="viewControllers" id="y4O-Px-943"/>
+                        <segue destination="ox8-cf-v7M" kind="relationship" relationship="viewControllers" id="yEr-vj-4f8"/>
+                        <segue destination="xkU-4s-U53" kind="relationship" relationship="viewControllers" id="9ed-Z3-Tgx"/>
+                        <segue destination="RqQ-Vb-Wf4" kind="relationship" relationship="viewControllers" id="9Ja-wi-i2H"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MOm-6Y-Nge" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-262" y="747"/>
+        </scene>
+        <!--通知-->
+        <scene sceneID="8KU-GH-Nqp">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="xkU-4s-U53" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="通知" image="icons8-予定の通知-50" id="2kz-Cx-I4G">
+                        <inset key="imageInsets" minX="0.0" minY="-3" maxX="0.0" maxY="12"/>
+                    </tabBarItem>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="7ox-Bg-h6r">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="nye-Df-Xbx" kind="relationship" relationship="rootViewController" id="og2-jk-WKn"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hCR-97-Kc9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="565" y="145"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="icons8-ナチュラルユーザーインターフェイス2-50" width="50" height="50"/>
+        <image name="icons8-ホームページ-50" width="50" height="50"/>
+        <image name="icons8-予定の通知-50" width="50" height="50"/>
+        <image name="icons8-地球儀-50" width="50" height="50"/>
+        <image name="icons8-銀行-50" width="50" height="50"/>
+        <image name="stock-1863880_1920" width="1920" height="1280"/>
+    </resources>
+</document>
