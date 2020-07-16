@@ -7,28 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4625F03F24BD7B9600439D50 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4625F03924BD7B9500439D50 /* Extension.swift */; };
+		4625F04024BD7B9600439D50 /* Provider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4625F03A24BD7B9500439D50 /* Provider.swift */; };
+		4625F04124BD7B9600439D50 /* Finnhub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4625F03B24BD7B9600439D50 /* Finnhub.swift */; };
+		4625F04224BD7B9600439D50 /* Tiingo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4625F03C24BD7B9600439D50 /* Tiingo.swift */; };
+		4625F04324BD7B9600439D50 /* MyQuote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4625F03D24BD7B9600439D50 /* MyQuote.swift */; };
+		4625F04424BD7B9600439D50 /* Iex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4625F03E24BD7B9600439D50 /* Iex.swift */; };
+		4652150E24BEBFDF0066C8B4 /* CroudFundNextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4652150D24BEBFDF0066C8B4 /* CroudFundNextViewController.swift */; };
+		4652151024BEC0200066C8B4 /* CroudFundTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4652150F24BEC0200066C8B4 /* CroudFundTableViewController.swift */; };
+		4652151224BFEF5C0066C8B4 /* GoogleService-Info (1).plist in Resources */ = {isa = PBXBuildFile; fileRef = 4652151124BFEF5C0066C8B4 /* GoogleService-Info (1).plist */; };
 		46978A70247BBB3A0057AE96 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46978A6F247BBB3A0057AE96 /* AppDelegate.swift */; };
 		46978A72247BBB3A0057AE96 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46978A71247BBB3A0057AE96 /* SceneDelegate.swift */; };
 		46978A74247BBB3A0057AE96 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46978A73247BBB3A0057AE96 /* ViewController.swift */; };
 		46978A77247BBB3A0057AE96 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46978A75247BBB3A0057AE96 /* Main.storyboard */; };
 		46978A79247BBB3D0057AE96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46978A78247BBB3D0057AE96 /* Assets.xcassets */; };
 		46978A7C247BBB3D0057AE96 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46978A7A247BBB3D0057AE96 /* LaunchScreen.storyboard */; };
-		F54CF4E424B443DE00221730 /* Provider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54CF4DF24B443DE00221730 /* Provider.swift */; };
-		F54CF4E524B443DE00221730 /* Tiingo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54CF4E024B443DE00221730 /* Tiingo.swift */; };
-		F54CF4E624B443DE00221730 /* Finnhub.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54CF4E124B443DE00221730 /* Finnhub.swift */; };
-		F54CF4E724B443DE00221730 /* Iex.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54CF4E224B443DE00221730 /* Iex.swift */; };
-		F54CF4E824B443DE00221730 /* MyQuote.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54CF4E324B443DE00221730 /* MyQuote.swift */; };
 		F54CF4EB24B44B3E00221730 /* tradeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54CF4EA24B44B3E00221730 /* tradeViewController.swift */; };
 		F54CF4ED24B4758300221730 /* UpdateLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54CF4EC24B4758300221730 /* UpdateLabel.swift */; };
 		F54CF4EF24B4768D00221730 /* AddStockViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54CF4EE24B4768D00221730 /* AddStockViewController.swift */; };
 		F54CF4F124B477E600221730 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54CF4F024B477E600221730 /* Item.swift */; };
 		F54CF4F324B4795200221730 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54CF4F224B4795200221730 /* Theme.swift */; };
-		F54CF4F524B479C400221730 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54CF4F424B479C400221730 /* Extension.swift */; };
 		F54CF4F724B47A0A00221730 /* UserDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54CF4F624B47A0A00221730 /* UserDefault.swift */; };
 		F54CF4F924B47A5B00221730 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54CF4F824B47A5B00221730 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4625F03924BD7B9500439D50 /* Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		4625F03A24BD7B9500439D50 /* Provider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Provider.swift; sourceTree = "<group>"; };
+		4625F03B24BD7B9600439D50 /* Finnhub.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Finnhub.swift; sourceTree = "<group>"; };
+		4625F03C24BD7B9600439D50 /* Tiingo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tiingo.swift; sourceTree = "<group>"; };
+		4625F03D24BD7B9600439D50 /* MyQuote.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyQuote.swift; sourceTree = "<group>"; };
+		4625F03E24BD7B9600439D50 /* Iex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Iex.swift; sourceTree = "<group>"; };
+		4652150D24BEBFDF0066C8B4 /* CroudFundNextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CroudFundNextViewController.swift; sourceTree = "<group>"; };
+		4652150F24BEC0200066C8B4 /* CroudFundTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CroudFundTableViewController.swift; sourceTree = "<group>"; };
+		4652151124BFEF5C0066C8B4 /* GoogleService-Info (1).plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info (1).plist"; sourceTree = "<group>"; };
 		46978A6C247BBB3A0057AE96 /* Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Project.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		46978A6F247BBB3A0057AE96 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		46978A71247BBB3A0057AE96 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,17 +49,11 @@
 		46978A78247BBB3D0057AE96 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		46978A7B247BBB3D0057AE96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		46978A7D247BBB3D0057AE96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F54CF4DF24B443DE00221730 /* Provider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Provider.swift; sourceTree = "<group>"; };
-		F54CF4E024B443DE00221730 /* Tiingo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tiingo.swift; sourceTree = "<group>"; };
-		F54CF4E124B443DE00221730 /* Finnhub.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Finnhub.swift; sourceTree = "<group>"; };
-		F54CF4E224B443DE00221730 /* Iex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Iex.swift; sourceTree = "<group>"; };
-		F54CF4E324B443DE00221730 /* MyQuote.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyQuote.swift; sourceTree = "<group>"; };
 		F54CF4EA24B44B3E00221730 /* tradeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tradeViewController.swift; sourceTree = "<group>"; };
 		F54CF4EC24B4758300221730 /* UpdateLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateLabel.swift; sourceTree = "<group>"; };
 		F54CF4EE24B4768D00221730 /* AddStockViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddStockViewController.swift; sourceTree = "<group>"; };
 		F54CF4F024B477E600221730 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		F54CF4F224B4795200221730 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
-		F54CF4F424B479C400221730 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 		F54CF4F624B47A0A00221730 /* UserDefault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefault.swift; sourceTree = "<group>"; };
 		F54CF4F824B47A5B00221730 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -83,6 +89,7 @@
 		46978A6E247BBB3A0057AE96 /* Project */ = {
 			isa = PBXGroup;
 			children = (
+				4652151124BFEF5C0066C8B4 /* GoogleService-Info (1).plist */,
 				46978A83247BC2C90057AE96 /* New Group */,
 				46978A6F247BBB3A0057AE96 /* AppDelegate.swift */,
 				F54CF4EA24B44B3E00221730 /* tradeViewController.swift */,
@@ -98,6 +105,8 @@
 				F54CF4EE24B4768D00221730 /* AddStockViewController.swift */,
 				F54CF4F024B477E600221730 /* Item.swift */,
 				F54CF4F224B4795200221730 /* Theme.swift */,
+				4652150D24BEBFDF0066C8B4 /* CroudFundNextViewController.swift */,
+				4652150F24BEC0200066C8B4 /* CroudFundTableViewController.swift */,
 			);
 			path = Project;
 			sourceTree = "<group>";
@@ -112,12 +121,12 @@
 		F54CF4DE24B443DE00221730 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				F54CF4DF24B443DE00221730 /* Provider.swift */,
-				F54CF4E024B443DE00221730 /* Tiingo.swift */,
-				F54CF4E124B443DE00221730 /* Finnhub.swift */,
-				F54CF4E224B443DE00221730 /* Iex.swift */,
-				F54CF4E324B443DE00221730 /* MyQuote.swift */,
-				F54CF4F424B479C400221730 /* Extension.swift */,
+				4625F03924BD7B9500439D50 /* Extension.swift */,
+				4625F03B24BD7B9600439D50 /* Finnhub.swift */,
+				4625F03E24BD7B9600439D50 /* Iex.swift */,
+				4625F03D24BD7B9600439D50 /* MyQuote.swift */,
+				4625F03A24BD7B9500439D50 /* Provider.swift */,
+				4625F03C24BD7B9600439D50 /* Tiingo.swift */,
 			);
 			name = Model;
 			path = "../stocks-dev/Xcode/stocks/Model";
@@ -184,6 +193,7 @@
 				46978A7C247BBB3D0057AE96 /* LaunchScreen.storyboard in Resources */,
 				46978A79247BBB3D0057AE96 /* Assets.xcassets in Resources */,
 				46978A77247BBB3A0057AE96 /* Main.storyboard in Resources */,
+				4652151224BFEF5C0066C8B4 /* GoogleService-Info (1).plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -194,19 +204,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F54CF4E624B443DE00221730 /* Finnhub.swift in Sources */,
-				F54CF4E724B443DE00221730 /* Iex.swift in Sources */,
+				4652150E24BEBFDF0066C8B4 /* CroudFundNextViewController.swift in Sources */,
 				F54CF4F724B47A0A00221730 /* UserDefault.swift in Sources */,
-				F54CF4E424B443DE00221730 /* Provider.swift in Sources */,
+				4652151024BEC0200066C8B4 /* CroudFundTableViewController.swift in Sources */,
+				4625F04024BD7B9600439D50 /* Provider.swift in Sources */,
 				F54CF4ED24B4758300221730 /* UpdateLabel.swift in Sources */,
 				F54CF4F324B4795200221730 /* Theme.swift in Sources */,
 				F54CF4F124B477E600221730 /* Item.swift in Sources */,
 				F54CF4F924B47A5B00221730 /* DetailViewController.swift in Sources */,
+				4625F04324BD7B9600439D50 /* MyQuote.swift in Sources */,
 				46978A74247BBB3A0057AE96 /* ViewController.swift in Sources */,
-				F54CF4E824B443DE00221730 /* MyQuote.swift in Sources */,
+				4625F03F24BD7B9600439D50 /* Extension.swift in Sources */,
 				46978A70247BBB3A0057AE96 /* AppDelegate.swift in Sources */,
-				F54CF4F524B479C400221730 /* Extension.swift in Sources */,
-				F54CF4E524B443DE00221730 /* Tiingo.swift in Sources */,
+				4625F04224BD7B9600439D50 /* Tiingo.swift in Sources */,
+				4625F04124BD7B9600439D50 /* Finnhub.swift in Sources */,
+				4625F04424BD7B9600439D50 /* Iex.swift in Sources */,
 				F54CF4EF24B4768D00221730 /* AddStockViewController.swift in Sources */,
 				46978A72247BBB3A0057AE96 /* SceneDelegate.swift in Sources */,
 				F54CF4EB24B44B3E00221730 /* tradeViewController.swift in Sources */,

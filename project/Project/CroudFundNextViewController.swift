@@ -10,6 +10,9 @@ import UIKit
 
 class CroudFundNextViewController: UIViewController {
 
+    @IBOutlet weak var textTitle: UITextField!
+    @IBOutlet weak var textMain: UITextField!
+    @IBOutlet weak var textEmail: UITextField!
     override func viewDidLoad() {
         super.viewDidLoad()
 
